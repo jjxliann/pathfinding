@@ -180,7 +180,7 @@ def get_click_pos(pos,rows,width):
 
     return row, col
 
-def  main(win,width):
+def  run(win,width):
     ROWS = 50
     grid = create_grid(ROWS, width)
 
@@ -235,4 +235,4 @@ def  main(win,width):
 
 
     pygame.quit()
-    return main(WIN,WIDTH)
+run(WIN,WIDTH)
